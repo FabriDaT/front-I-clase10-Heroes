@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
-
+body{
+  font-family: 'Roboto', sans-serif;
+}
 /*estilos header*/
 
 .descuento {
@@ -25,7 +28,6 @@ header p {
   position: relative;
   background-color: #00669f;
   height: 101px;
-  border: 1px solid #000000;
   box-shadow: 0px 10px 7px 0px #00000040;
 }
 header h1 {
@@ -42,16 +44,89 @@ header h1 {
   text-align: left;
 }
 
+
+
+
+
 /* estilos main */
 
 main {
   background-color: #fff9f9;
-  height: 700px;
+  height: 600px;
 }
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .card{
-    top: 50px;
-    position: relative;
-    display: inline;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.cardHead{
+  height: 193px;
+  width: 300px;
+  background-image: url("../imagenes/batman.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.fotoPerfil{
+  border-radius: 50%;
+  width: 120px;
+  height: 118px;
+  align-self: center;
+  position: relative;
+  top: 50px;
+}
+
+.corazon{
+  align-self: flex-start;
+  margin-left: 21px;
+  margin-top: 16px;
+}
+
+.cardBody{
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width: 300px;
+  height: 336px;
+  background: #F3F3F3;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.card{
+    display: flexbox;
+    justify-items: center;
     
 }
 .divNorte {
@@ -77,10 +152,10 @@ main {
     border-radius: 60px;
     margin: auto;
 }
-
+*/
 /* estilos footer */
 
-.cajaFooter {
+footer {
   position: relative;
   background-color: #00669f;
   height: 51px;
