@@ -6,7 +6,6 @@
 /*estilos header*/
 
 .descuento {
-  position: relative;
   background-color: #1cd1b0;
   height: 38px;
 }
@@ -15,7 +14,6 @@ header p {
   font-family: Roboto;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
   line-height: 18px;
   letter-spacing: 0em;
   margin-top: 10px;
@@ -46,7 +44,7 @@ header h1 {
 
 main {
   background-color: #fff9f9;
-  height: 1500px;
+  height: 900px;
 }
 
 section {
@@ -54,6 +52,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  height: 900px;
 }
 
 .card {
@@ -86,7 +85,7 @@ section {
   height: 118px;
   align-self: center;
   position: relative;
-  top: 50px;
+  top: 60px;
 }
 
 .corazon {
